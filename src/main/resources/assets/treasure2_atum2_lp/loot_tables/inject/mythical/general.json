@@ -44,66 +44,6 @@
       "name" : "treasure2_atum2_lp:subloot/iron_weapons_35",
       "weight" : 10,
       "quality" : 2
-    }, {
-      "type" : "item",
-      "name" : "atum:relic_dirty_ring",
-      "entryName" : "loot_dirty_ring",
-      "functions" : [ {
-        "function" : "set_count",
-        "count" : {
-          "min" : 1,
-          "max" : 3
-        }
-      } ],
-      "weight" : 100
-    }, {
-      "type" : "item",
-      "name" : "atum:relic_dirty_necklace",
-      "entryName" : "loot_dirty_necklace",
-      "functions" : [ {
-        "function" : "set_count",
-        "count" : {
-          "min" : 1,
-          "max" : 3
-        }
-      } ],
-      "weight" : 50
-    }, {
-      "type" : "item",
-      "name" : "atum:relic_dirty_brooch",
-      "entryName" : "loot_dirty_brooch",
-      "functions" : [ {
-        "function" : "set_count",
-        "count" : {
-          "min" : 1,
-          "max" : 3
-        }
-      } ],
-      "weight" : 40
-    }, {
-      "type" : "item",
-      "name" : "atum:relic_dirty_bracelet",
-      "entryName" : "loot_dirty_bracelet",
-      "functions" : [ {
-        "function" : "set_count",
-        "count" : {
-          "min" : 1,
-          "max" : 2
-        }
-      } ],
-      "weight" : 30
-    }, {
-      "type" : "item",
-      "name" : "atum:relic_dirty_idol",
-      "entryName" : "loot_dirty_idol",
-      "functions" : [ {
-        "function" : "set_count",
-        "count" : {
-          "min" : 1,
-          "max" : 2
-        }
-      } ],
-      "weight" : 15
     } ]
   }, {
     "name" : "atum_mythical_pharaoh_artifact",
@@ -113,7 +53,7 @@
     },
     "entries" : [ {
       "type" : "loot_table",
-      "name" : "atum:gods/all",
+      "name" : "atum:artifacts",
       "weight" : 1
     } ]
   } ]

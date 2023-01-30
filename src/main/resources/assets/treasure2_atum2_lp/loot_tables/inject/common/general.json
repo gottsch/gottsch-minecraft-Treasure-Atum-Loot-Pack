@@ -69,11 +69,6 @@
       "name" : "treasure2_atum2_lp:subloot/iron_weapons_0",
       "weight" : 2,
       "quality" : 2
-    }, {
-      "type" : "item",
-      "name" : "atum:relic_dirty_ring",
-      "entryName" : "loot_dirty_ring",
-      "weight" : 5
     } ]
   } ]
 }
