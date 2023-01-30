@@ -1,0 +1,120 @@
+{
+  "version" : "1.0",
+  "categories" : [ "general" ],
+  "pools" : [ {
+    "name" : "atum_legendary",
+    "rolls" : {
+      "min" : 4,
+      "max" : 6
+    },
+    "entries" : [ {
+      "type" : "item",
+      "name" : "atum:golden_date",
+      "entryName" : "golden_date",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 5
+    }, {
+      "type" : "item",
+      "name" : "atum:golden_date_enchanted",
+      "entryName" : "golden_date_enchanted",
+      "weight" : 1
+    }, {
+      "type" : "loot_table",
+      "name" : "atum:chests/subloot/gold_armor_0",
+      "weight" : 50,
+      "quality" : 2
+    }, {
+      "type" : "loot_table",
+      "name" : "atum:chests/subloot/gold_armor_25",
+      "weight" : 10,
+      "quality" : 2
+    }, {
+      "type" : "loot_table",
+      "name" : "atum:chests/subloot/diamond_armor_25",
+      "weight" : 2,
+      "quality" : 2
+    }, {
+      "type" : "loot_table",
+      "name" : "treasure2_atum2_lp:subloot/iron_weapons_35",
+      "weight" : 10,
+      "quality" : 2
+    }, {
+      "type" : "item",
+      "name" : "atum:relic_dirty_ring",
+      "entryName" : "loot_dirty_ring",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 100
+    }, {
+      "type" : "item",
+      "name" : "atum:relic_dirty_necklace",
+      "entryName" : "loot_dirty_necklace",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 50
+    }, {
+      "type" : "item",
+      "name" : "atum:relic_dirty_brooch",
+      "entryName" : "loot_dirty_brooch",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 40
+    }, {
+      "type" : "item",
+      "name" : "atum:relic_dirty_bracelet",
+      "entryName" : "loot_dirty_bracelet",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 30
+    }, {
+      "type" : "item",
+      "name" : "atum:relic_dirty_idol",
+      "entryName" : "loot_dirty_idol",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 15
+    } ]
+  }, {
+    "name" : "atum_legendary_pharaoh_artifact",
+    "rolls" : {
+      "min" : 1,
+      "max" : 2
+    },
+    "entries" : [ {
+      "type" : "loot_table",
+      "name" : "atum:gods/all",
+      "weight" : 1
+    } ]
+  } ]
+}

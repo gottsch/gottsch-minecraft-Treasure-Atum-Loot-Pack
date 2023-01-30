@@ -1,0 +1,10 @@
+{
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/treasure2-atum2-lp",
+	"promos": {
+		"1.16.5-latest": "2.0.0",
+		"1.16.5-recommended": "2.0.0"
+	},
+	"1.16.5": {
+		"2.0.0": "Initial release. (starts at 2.0 = compat with Treasure2 v2+)"
+	}
+}

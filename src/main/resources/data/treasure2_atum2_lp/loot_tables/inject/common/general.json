@@ -1,0 +1,79 @@
+{
+  "version" : "1.0",
+  "categories" : [ "general" ],
+  "pools" : [ {
+    "name" : "atum_common",
+    "rolls" : 1,
+    "entries" : [ {
+      "type" : "item",
+      "name" : "atum:dusty_bone",
+      "entryName" : "dusty_bone",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 50
+    }, {
+      "type" : "item",
+      "name" : "atum:date",
+      "entryName" : "date",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 2
+        }
+      } ],
+      "weight" : 45
+    }, {
+      "type" : "item",
+      "name" : "atum:emmer_seeds",
+      "entryName" : "emmer_seeds",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 20
+    }, {
+      "type" : "item",
+      "name" : "atum:cloth_scrap",
+      "entryName" : "cloth_scrap",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 40
+    }, {
+      "type" : "item",
+      "name" : "atum:fertile_soil_pile",
+      "entryName" : "fertile_soil_pile",
+      "functions" : [ {
+        "function" : "set_count",
+        "count" : {
+          "min" : 1,
+          "max" : 3
+        }
+      } ],
+      "weight" : 40
+    }, {
+      "type" : "loot_table",
+      "name" : "treasure2_atum2_lp:subloot/iron_weapons_0",
+      "weight" : 2,
+      "quality" : 2
+    }, {
+      "type" : "item",
+      "name" : "atum:relic_dirty_ring",
+      "entryName" : "loot_dirty_ring",
+      "weight" : 5
+    } ]
+  } ]
+}
