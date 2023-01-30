@@ -21,5 +21,12 @@
 	"supportingLootTableFolderLocations": [
     ],
     "injectLootTableFolderLocations": [
+ 		"inject/common",
+		"inject/uncommon",
+		"inject/scarce",
+		"inject/rare",
+		"inject/epic",
+		"inject/legendary",
+		"inject/mythical"   
     ]
 }
