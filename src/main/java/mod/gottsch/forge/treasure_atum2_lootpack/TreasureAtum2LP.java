@@ -67,8 +67,6 @@ public class TreasureAtum2LP extends AbstractMod {
 	public void preInt(FMLPreInitializationEvent event) {
 		super.preInt(event);
 
-		// register additional events
-		MinecraftForge.EVENT_BUS.register(new WorldEventHandler(getInstance()));
 		// create the treasure registries
 		TreasureApi.registerLootTables(MODID);
 	}
